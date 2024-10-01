@@ -16,3 +16,6 @@ Write-Host "Number of bases: $nucleotide_bases"
 30
 93
 ```
+
+# Question 2
+###  Run prodigal on one of the genomes you have previously downloaded. Using command line tools, count how many genes were annotated (you can use any of the output formats for this but some are easier than others)
