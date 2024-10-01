@@ -184,19 +184,34 @@ Directory: GCA_000091085.2_prokka_results - Total CDS count: 1056
 
 
 # Question 5
-### Extract and list all unique gene names annotated by Prokka
- using shell commands. Provide the command you used and the first five
- gene names from the list.
+### Extract and list all unique gene names annotated by Prokka using shell commands. Provide the command you used and the first five gene names from the list.
 
 ## PowerShell script:
 ```bash
-,
+#!/bin/bash
+
+mkdir -p combined_output
+
+# Loop through each directory and copy .gbk files
+for dir in */; do
+  if [[ -d "$dir" ]]; then
+    cp "${dir}"*.gbk combined_output/ 2>/dev/null
+  fi
+done
+
+echo "All .gbk files have been copied to combined_output."
 ```
 ```bash
-.
+grep -h 'gene=' *.gbk | cut -d'=' -f2 | tr -d '"' | sort -u > unique_genes.txt
+```
+```bash
+grep -h 'gene=' *.gbk | cut -d'=' -f2 | tr -d '"' | sort -u > unique_genes.txt
 ```
 ## Answers: 
 ```bash
-30
-93
+aaaT
+aaeA
+aaeA_1
+aaeA_2
+aaeB
 ```
