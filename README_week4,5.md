@@ -1,4 +1,5 @@
-# Question 1: If given the amino acid sequence KVRMFTSELDIMLSVNGPADQIKYFCRHWT, what is the number of amino acids in the encoded peptide (not including the stop codon)? Additonally, how many bases are contained in the open reading frame of the DNA sequence encoding the amino acids (including the stop codon)
+# Question 1
+## If given the amino acid sequence KVRMFTSELDIMLSVNGPADQIKYFCRHWT, what is the number of amino acids in the encoded peptide (not including the stop codon)? Additonally, how many bases are contained in the open reading frame of the DNA sequence encoding the amino acids (including the stop codon)
 # PowerShell script:
 ```bash
 $sequence = "KVRMFTSELDIMLSVNGPADQIKYFCRHWT"  # Excluding the stop codon (*)
