@@ -62,4 +62,4 @@ scp kazemlz@ilogin.ibex.kaust.edu.sa:~/gene_finder_assignment/question4.txt C:\U
 ```
 ### Question 5 and 6 follow the same steps as 4.
 
-#### This HW was with the help of Yazeed Alroogi
+#### This HW was with the help of Yazeed Alroogi, and the Python codes were written with the help of ChatGPT
