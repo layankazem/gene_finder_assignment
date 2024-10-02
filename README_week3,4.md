@@ -29,7 +29,7 @@ echo "" > gene_finder.py
 ```
 
 
-# Question 4
+# Question 4, 5, and 6
 
 ## Creating the bash script
  ```bash
