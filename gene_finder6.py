@@ -1,5 +1,14 @@
 """
-The prompt for chatgtp:
+The prompt for chatgpt: 
+Even when filtered by length, not all ORFs will eventually
+ be translated into a protein. One thing to look for is a ribosome bind
+ing site which is usually located 4-20bp upstream of the start coding.
+ Scan upstream of the predicted start codon (e.g.,-20 bp, but make this
+ a parameter of your tool) for a ribosome binding site (RBS); there are
+ several sequences that can indicate an RBS, the most common being the
+ Shine-Dalgarno sequence (AGGAGG). Filter all predicted ORFs based on
+ whether they contain a Shine-Dalgarno sequence up to 20bp upstream of
+ the start codon. give me the python code
 
 """
 
