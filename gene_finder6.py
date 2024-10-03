@@ -1,3 +1,9 @@
+"""
+The prompt for chatgtp:
+
+"""
+
+
 import sys
 
 # Default RBS sequence and search parameters
